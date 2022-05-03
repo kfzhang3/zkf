@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/timg"
+    tools:context="com.example.hai.demo.MainActivity"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="  数字识别"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/picture" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="选择图片"
+        android:textColor="#0000ff" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="开始识别"
+        android:textColor="#0000ff" />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:layout_weight="0.01" />
+
+</LinearLayout>
